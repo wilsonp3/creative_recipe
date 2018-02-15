@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+}
+
+hr {
+    border-color: rgb(0,100,255);
+}
+
+body {
+    background-color: rgb(50,255,200);
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}
+
+.title {
+    padding-left:30%;
+    padding-right:30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: fantasy;
+    font-style: italic;
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    font-style: oblique;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size: 20px;
+    color: rgb(0,60,255)
+}
+
+.main_content {
+    padding-bottom: 150px;
+}
+
+.form1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+}
+
+#recipeResults{
+    text-align: center;
+    padding-bottom: 150px;
+    font-family: sans-serif;
+}
+
+#recipeResults ul {
+    list-style: none;
+    text-align: left;
+}
+
+#recipeResults >ul {
+    padding: 0;
+    margin: 0;
+}
+
+#recipeResults >ul >li > a {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: rgba(255,255,255,0.8);
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.description {
+    padding-left: 25px;
+    color: #333;
+}
+
+.description li {
+    text-decoration: none;
+}
+
+#recipeInput {
+    text-align: center;
+    font-size: large;
+}
+#recipeSubmit{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.form2 {
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#queryResults {
+    text-align: left;
+    padding-bottom: 150px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family: sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  padding-top: 10px;
+  text-decoration-color: white;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-align: center;
+}
+
+#footer_content {
+    padding-top: 50px;
+    color: black;
+    font-size: 20px;
+}
